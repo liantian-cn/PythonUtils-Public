@@ -7,9 +7,9 @@ ext_modules = [
 ]
 
 setup(
-    name='My Program',
+    name='cipher',
     cmdclass={'build_ext': build_ext},
     ext_modules=ext_modules
 )
 
-# python setup.py build_ext --inplace
+# python3 build_cipher.py build_ext --inplace

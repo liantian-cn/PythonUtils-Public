@@ -139,4 +139,5 @@ def decrypt2file_b(file_path: pathlib.Path) -> bytes:
     return plain_bytes
 
 
-
+ez_encrypt = string_encrypt
+ez_decrypt = string_decrypt
